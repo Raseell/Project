@@ -1,5 +1,5 @@
-after downloading Ubuntu open the virtual Box
-open the terminal
+after downloading Ubuntu I opened the virtual Box
+then I opened the terminal
 I setup the sources.list by typing this command line   sudo sh -c 'echo "deb http://packages.ros.org/ros/ubuntu $(lsb_release -sc) main" > /etc/apt/sources.list.d/ros-latest.list'   in the terminal
 then I set up the keys by writing   sudo apt install curl curl -s https://raw.githubusercontent.com/ros/rosdistro/master/ros.asc | sudo apt-key add -   in the terminal
 before installation I had to make sure that the package is up to date by writing   sudo apt update   in the terminal
